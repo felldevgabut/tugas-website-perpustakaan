@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog - Kelompok 7</title>
+    <link rel="stylesheet" href="katalog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="fcontainer">
+
+        <!-- Bar -->
+        <nav class="navbar">
+            <div class="judulbar">
+                <div class="pertama">PERPUS</div>
+                <div class="terakhir">TAKAAN</div>
+            </div>
+
+            <ul class="baritem">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="katalog.html">Katalog</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+            </ul>
+        </nav>
+
+        <div class="konten" id="halaman-katalog">
+            <h2>Katalog Buku</h2>
+            
+            <table id="tabel-buku">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Judul</th>
+                        <th>Penulis</th>
+                        <th>Tahun</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img src="basis_data.jpeg" alt="Basis Data" class="sampul"> Basis Data SMK Kelas XI</td>
+                        <td>Adyanata Lubis</td>
+                        <td>2016</td>
+                        <td><span class="tersedia">Tersedia</span></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img src="Ipas.jpeg" alt="IPAS" class="sampul"> Proyek IPAS</td>
+                        <td>Berti Sagendra</td>
+                        <td>2022</td>
+                        <td><span class="tersedia">Tersedia</span></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img src="mtk.jpeg" alt="Matematika" class="sampul"> Matematika SMK Kelas XI
+                        </td>
+                        <td rowspan="2">Arif Erdiyanto | Maya Harsasi</td>
+                        <td>2023</td>
+                        <td><span class="dipinjam">Dipinjam</span></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><img src="mtkx.jpeg" alt="Matematika X" class="sampul"> Matematika SMK kelas X </td>  
+                        <td>2022</td>
+                        <td><span class="tersedia">Tersedia</span></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><img src="pemrograman.jpg" alt="Pemrograman" class="sampul"> Pemrograman Dasar</td>
+                        <td>Yulia Ardiyanti</td>
+                        <td>2018</td>
+                        <td><span class="tersedia">Tersedia</span></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><img src="pplg.jpeg" alt="Basic PPLG" class="sampul"> Dasar-Dasar PPLG </td>
+                        <td>Okta Purnawirawan, Dkk.</td>
+                        <td>2023</td>
+                        <td><span class="dipinjam">Dipinjam</span></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><img src="b_indo.png" alt="Bahasa Indonesia" class="sampul"> Bahasa Indonesia</td>
+                        <td>Sriyati</td>
+                        <td>2022</td>
+                        <td><span class="tersedia">Tersedia</span></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><img src="b_ing.jpg" alt="Bahasa Inggris" class="sampul">Bahasa Inggris</td>
+                        <td>Astria Muzdalifah</td>
+                        <td>2022</td>
+                        <td><span class="tersedia">Tersedia</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Total Koleksi Buku</td>
+                        <td>8 Buku</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </div>
+    
+</body>
+</html>
