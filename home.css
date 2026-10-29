@@ -39,6 +39,14 @@ body {
     font-weight: 700;
 }
 
+.baritem > li > a:hover {
+    color: white;
+    background-color: rgb(0, 85, 255) ;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
 .judulbar {
     display: flex;
     flex-direction:row ;

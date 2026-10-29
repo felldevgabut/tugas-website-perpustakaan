@@ -50,11 +50,6 @@ body {
     transition: 0.3s;
 }
 
-.baritem > li > a:hover {
-    color: rgb(0, 131, 246);
-}
-
-
 .konten {
     background-color: white;
     margin: 20px;
@@ -115,4 +110,11 @@ tr:hover {
 tfoot {
     font-weight: bold;
     background-color: #eee;
+}
+
+.baritem > li > a:hover {
+    color: white;
+    background-color: rgb(0, 85, 255) ;
+    padding: 10px;
+    border-radius: 8px;
 }
