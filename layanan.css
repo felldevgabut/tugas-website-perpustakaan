@@ -8,6 +8,9 @@ body {
 .fcontainer {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -55,6 +58,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     line-height: 1.6;
+    flex: 1;
 }
 
 #judul-layanan {
@@ -107,4 +111,23 @@ tr:hover {
     padding: 10px;
     border-radius: 8px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: rgb(0, 85, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
 
